@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container"
+    >
+
+    <FrameLayout
+        android:id ="@+id/menuContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/White"
+        >
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id ="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:background="@color/White"
+        android:layout_weight="0.99"
+        >
+        <ListView
+            android:id="@+id/listAux"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+        </ListView> >
+    </FrameLayout>
+
+
+
+</LinearLayout>

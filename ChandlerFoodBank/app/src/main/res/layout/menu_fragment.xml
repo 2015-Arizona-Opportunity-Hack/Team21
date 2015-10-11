@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Home &amp; Support"
+        android:textSize="@dimen/small"
+        android:layout_marginTop="2dp"
+        android:textStyle="italic"
+        android:id="@+id/support"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small"
+        android:layout_marginTop="2dp"
+        android:id="@+id/prog"
+        android:layout_weight="1"
+        android:textStyle="italic"
+        android:text="Event &amp; Prog" />
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small"
+        android:text="About &amp; Contact"
+        android:layout_marginTop="2dp"
+        android:id="@+id/contact"
+        android:textStyle="italic"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:textSize="@dimen/small"
+        android:layout_marginTop="3dp"
+        android:text="RFP &amp; Jobs"
+        android:id="@+id/jobs"
+        android:textStyle="italic"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="287dp"
+        android:src="@drawable/chandlerbank"
+        android:id="@+id/chandlerBank">
+
+        </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/startLine"
+        android:text="@string/demo"
+        android:textColor="@color/Black">
+
+    </TextView>
+</LinearLayout>
